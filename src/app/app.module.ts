@@ -4,18 +4,18 @@ import { RouterModule } from '@angular/router'
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
-import { PracticeComponent } from './practice/practice.component';
+import { PracticeListComponent } from './practice-list/practice-list.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
-    PracticeComponent,
+    PracticeListComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: '', component: PracticeComponent}
+      { path: '', component: PracticeListComponent }
     ])
   ],
   providers: [],
